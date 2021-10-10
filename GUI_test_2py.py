@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import *
 from tkinter import ttk
 import tkinter.font as font
+import time
 
 #Generate window 
 window = Tk()
@@ -18,10 +19,12 @@ myFont = font.Font(family='Garamond')
 alexaFont = font.Font(family='Cambria', size=10, slant="italic")
 alexaFont2 = font.Font(family='Alias', size=10)
 
+
+
 #top left icon
 window.call('wm', 'iconphoto', window._w, tk.PhotoImage(file=r"images\flash-cards.png"))
 
-
+time.sleep(200)
 
 #open new window(test)
 def openNewWindow():
