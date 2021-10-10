@@ -19,7 +19,7 @@ alexaFont = font.Font(family='Cambria', size=10, slant="italic")
 alexaFont2 = font.Font(family='Alias', size=10)
 
 #top left icon
-window.call('wm', 'iconphoto', window._w, tk.PhotoImage(file=r"C:\Users\user\Downloads\flash-cards.png"))
+window.call('wm', 'iconphoto', window._w, tk.PhotoImage(file=r"images\flash-cards.png"))
 
 
 #open new window(test)
@@ -40,7 +40,7 @@ def openNewWindow():
     Label(newWindow,
           text ="This do be settings beepedy boppidy").pack()
     #icon
-    window.call('wm', 'iconphoto', newWindow._w, tk.PhotoImage(file=r"C:\Users\user\Downloads\settings.png"))
+    window.call('wm', 'iconphoto', newWindow._w, tk.PhotoImage(file=r"images\settings.png"))
 
 
 
@@ -187,15 +187,15 @@ bottomframe.pack()
 
 #Top icons
 # Resizing image to fit on button
-photo_1 = PhotoImage(file = r"C:\Users\user\Downloads\echo-dot.png")
-photo_2 = PhotoImage(file = r"C:\Users\user\Downloads\flash-cards.png")
-photo_3 = PhotoImage(file = r"C:\Users\user\Downloads\settings.png")
-photo_4 = PhotoImage(file = r"C:\Users\user\Downloads\alarm-clock.png")
-photo_0 = PhotoImage(file = r"C:\Users\user\Downloads\image.png")
-photo_6 = PhotoImage(file = r"C:\Users\user\Downloads\shuffle.png")
-photo_7 = PhotoImage(file = r"C:\Users\user\Downloads\numbers.png")
-photo_8 = PhotoImage(file = r"C:\Users\user\Downloads\new.png")
-photo_9 = PhotoImage(file = r"C:\Users\user\Downloads\repeat.png")
+photo_1 = PhotoImage(file = r"images\echo-dot.png")
+photo_2 = PhotoImage(file = r"images\flash-cards.png")
+photo_3 = PhotoImage(file = r"images\settings.png")
+photo_4 = PhotoImage(file = r"images\alarm-clock.png")
+photo_0 = PhotoImage(file = r"images\image.png")
+photo_6 = PhotoImage(file = r"images\shuffle.png")
+photo_7 = PhotoImage(file = r"images\numbers.png")
+photo_8 = PhotoImage(file = r"images\new.png")
+photo_9 = PhotoImage(file = r"images\repeat.png")
 
 
 
